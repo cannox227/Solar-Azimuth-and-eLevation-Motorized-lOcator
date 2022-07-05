@@ -6,6 +6,7 @@ The official name of the project is `PPS2021_SUN_TRK`
 During the second semester of the 2021/2022 A.Y. of their bachelor degree in Electronics Engineering, a group of students known as _SALMO SOCIETY_, developed a custom board to solve real world problems. 
 <br>Nowadays, we are all aware about climate change and it's impact, so the _SALMO SOCIETY_ decided in partecipate to the renewable energy run, in particular exploiting the energy obtained by a solar panel to drive a load.
 <br>The aim of the board it's to move the solar panel using two step motors (along z-y axis) facilitating the MPP (Maximum Power Point) reaching and, as consequence, delivering the maximum power to the load.<br> Using a GPS module, the board knows exactly where it is located around the globe; afterwards the position of the sun is computed with a specific algorithm based on astronomical calculations. Then, the spatial position of the panel is derived by the accelerometer and compass modules; lastly, the motor is moved in order to follow the exact position of the sun (given its azimuth and elevation).
+<br><br>You can find the whole project report [here](Report/report.pdf)
 
 ![Salmo board](/media/salmo_board.png)
 
